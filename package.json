@@ -1,0 +1,27 @@
+{
+  "name": "azure-pm2",
+  "version": "0.0.1",
+  "description": "Show how to run PM2 on Azure",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/supervisor.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GasiorowskiPiotr/azure-pm2.git"
+  },
+  "author": "Piotr Gąsiorowski <gasiorowski.piotr@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GasiorowskiPiotr/azure-pm2/issues"
+  },
+  "homepage": "https://github.com/GasiorowskiPiotr/azure-pm2#readme",
+  "devDependencies": {
+    "@types/node": "^6.0.52",
+    "typescript": "^2.1.4"
+  },
+  "dependencies": {
+    "pm2": "^2.2.2"
+  }
+}
