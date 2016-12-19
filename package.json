@@ -18,11 +18,9 @@
     "url": "https://github.com/GasiorowskiPiotr/azure-pm2/issues"
   },
   "homepage": "https://github.com/GasiorowskiPiotr/azure-pm2#readme",
-  "devDependencies": {
+  "dependencies": {
+    "pm2": "^2.2.2",
     "@types/node": "^6.0.52",
     "typescript": "^2.1.4"
-  },
-  "dependencies": {
-    "pm2": "^2.2.2"
   }
 }
