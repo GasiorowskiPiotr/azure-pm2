@@ -5,4 +5,4 @@ const server = http.createServer((request: http.IncomingMessage, response: http.
     response.write("Hello world!");
     response.end();
 
-}).listen(8080);
+}).listen(process.env.port);
