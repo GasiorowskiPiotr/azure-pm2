@@ -6,7 +6,7 @@ const maxMemory = process.env.MAX_MEMORY || 512;
 pm2.connect(() => {
     pm2.start({
         env: process.env,
-        exec_mode: 'cluster',
+        //exec_mode: 'cluster',
         instances: instances,
         max_memory_restart: maxMemory,
         name: 'Piotrek',
