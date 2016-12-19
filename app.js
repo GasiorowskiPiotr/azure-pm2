@@ -1,1 +1,1 @@
-console.log("Cheating Azure to recognize this as Node.Js AppService :)");
+require('./dist/supervisor');
